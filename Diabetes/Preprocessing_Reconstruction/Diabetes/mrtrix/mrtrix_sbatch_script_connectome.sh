@@ -142,6 +142,9 @@ tck2connectome \
 /fred/oz251/Diabetes/derivatives/LA/mrtrix/connectome/${subj}/sub_${subj}_parcels.csv \
 |& tee /fred/oz251/Diabetes/derivatives/LA/mrtrix/log/${subj}_tck2connectome_log.txt
 
+
+
+##########QUALITYCONTROL###########
 #QC:Connectome visualization tool
 #mrview *parcels.mif -connectome.init *parcels.mif -connectome.load *parcels.csv -capture.folder /fred/oz251/Diabetes/derivatives/LA/mrtrix/connectome/images -capture.prefix connectome -capture.grab -exit
 #mrview *parcels.mif -connectome.init *parcels.mif -connectome.load *parcels.csv 
