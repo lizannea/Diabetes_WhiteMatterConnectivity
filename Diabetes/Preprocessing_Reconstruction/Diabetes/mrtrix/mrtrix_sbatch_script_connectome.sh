@@ -10,13 +10,13 @@
 # Subject_mrtrix_connectome script
 #-----------------------------------------
 #
-# A batch that uses files generated from QSIPrep_rec_5tt_rf_Final.sh 
+# A batch that uses files generated from mrtrix_sbatch_script_connectome.sh 
 # and the calculated mean responsfunctions to create the connectome (mrtrix).
 # This batch is used to analyse the ARLA dataset. 
 #
 ################################################################################
 #
-# Usage             : mrtrix_recon_script_connectome_1.sh
+# Usage             : mrtrix_sbatch_script_connectome.sh
 # mrtrix Website    : https://mrtrix.readthedocs.io/en/dev/index.html
 #
 # Author            : Lizanne Arnoldy
